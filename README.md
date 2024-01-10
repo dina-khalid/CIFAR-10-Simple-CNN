@@ -10,7 +10,7 @@ The model is inspired by Vgg but smaller and with little modification as the dat
     -  encountered an obvious overfitting training ACC > 90 while validation < 75 and oscillating matrices curves for validation (accuracy, precision, recall, and F1-score)
 - 2nd trial change SGD to Adam:
     - The curves become smoother but still, we have an overfitting problem
-  - 3rd trial adding Dropuout:
+- 3rd trial adding Dropuout:
      - Overfitting problem solved, validation and test ACC: 80%, training Acc: 85% While the acc for each class is balanced.
 
 ### Suggestions to improve the results:
